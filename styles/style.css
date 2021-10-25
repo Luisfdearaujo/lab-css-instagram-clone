@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-color:#1c5380;
+  height: 300px;
+}
+
+h2{
+  color: #06365f;
+}
+
+.instagram-image{
+  display: flex;
+  position: relative;
+  left: 550px;
+  bottom: 400px;
+}
+
+.phones-image{
+  display: flex;
+  position: relative;
+  left: 180px;
+  top: 100px;
+}
+.button{
+  background-color: #1c5380;
+  color: white;
+  width: 90px;
+  height: 40px;
+  justify-content: space-between  ;
+  display: flex;
+  align-items: center;
+  float: right;
+  position: relative;
+  right: 420px;
+  bottom: 170px;
+  padding: 5px;
+  
+}
+
+.section2{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 450px;
+  margin-left: 500px;
+  position: relative;
+  bottom: 50px;
+  left: 40px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+p{
+  display: flex;
+  justify-content: flex-start ;
+  margin: 10px 10px 10px 10px;
+}
+
+footer{
+  
+}
+
+.images-2{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bottom > ul {
+  
+  display: flex;
+  justify-content: space-between ;
+  list-style-type: none;
+  margin: 10px 100px 100px 200px;
+  font-weight: bold;
+  color: #1c5380;
+}
